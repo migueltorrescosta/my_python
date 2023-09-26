@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "my-python"
+version = "0.1.0"
+description = ""
+authors = ["Miguel Torres Costa <miguelptcosta1995@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+my-rust = { file = "<PATH_TO_THE_WHEEL_IN_YOUR_SYSTEM>/my_rust-0.1.0-cp310-cp310-macosx_13_0_arm64.whl" }
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
